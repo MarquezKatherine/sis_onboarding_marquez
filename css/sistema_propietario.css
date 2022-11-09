@@ -1,0 +1,39 @@
+
+
+
+#columna{
+	margin-top: 100px;
+	padding: 70px;
+}
+#subtitulo1{
+	font-family: Times New Roman;
+	text-align: center;
+	height: 40px;
+	font-size: 20px;
+	color:#000322;
+}
+body{
+    background-image: url("../img/fondo17.jpg");
+    background-size: 100%;  
+}
+
+
+form{
+	padding: 60px;
+	max-width: 400px;
+	background-color: #adc4db;
+	margin: 0 auto;
+}
+form input. form textarea{
+	margin-bottom: 15px;
+	width: 100%;
+	padding: 10px;
+	box-sizing: border-box;
+	color: #665852;
+}
+form input. form button{
+	background-color: #bf3017;
+	padding: 10px 45px 10px 45px;
+	border: 0;
+	color: black;
+}

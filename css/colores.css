@@ -1,0 +1,269 @@
+
+body{
+  position:relative;
+  padding-bottom: 60px;
+    background: url("../img/diseño.jpg") no-repeat;
+  height: 100%;
+  margin: 0px;
+  }
+
+
+.limpiar{
+	overflow: hidden;
+}
+.cabecera{
+	vertical-align: 2rem;
+	width: 50;
+	height: 50px;
+	color: #0515f5;
+}
+
+.titulo{
+	font-family: Lucida Bright;
+	font-size: 3rem;
+	color: rgb(255, 255, 255);
+	display: inline;
+	text-shadow: 4px 4px 4px black;
+	vertical-align: 2rem;
+}
+.usuario{
+	font-family: century gothic;
+	color: rgb(255, 255, 255);
+	font-size: -10px;
+	display: inline;
+	vertical-align: 2rem;
+	font-weight: bold;
+}
+
+img{
+	opacity: 0.8;
+}
+.formu_ingreso{
+	font-family: century gothic;
+	text-align: center;
+	background: url("../img/diseño1.jpg");
+	padding: 50px 20px;
+	background-color: #edf2f1b8;
+	margin: calc(25% + 100px);
+	margin-top: 90px;
+	padding-top: 48px;
+	margin-bottom: 50px;
+	border-radius: 50px;
+	border-color: black;
+	border-style: solid;
+}
+
+h1 {
+	font-family: century gothic;
+	text-align: center;
+	padding: 10px;
+	color: rgb(243, 235, 235);
+}
+h5 {
+	font-family: century gothic;
+	text-align: center;
+	color: rgb(20, 20, 20);
+	font-size: 30px;
+	margin: 0px;
+}
+h2{
+	font-size: 18px;
+	color: #000000;
+	font-family: Tahoma;
+}
+.v{
+
+	font-family: century gothic;
+	font-size: 40px;
+	color: #161616a6;
+	text-align: center;
+}
+
+.otro{
+	width: calc(100% - 20px);
+	padding: 9px;
+	margin: auto;
+	font-size: 16px
+}
+input[type='submit']{
+	background-color: rgba(252, 70, 236, 1.0);
+	color: rgb(20, 20, 20);
+	width: calc(80% - 60px);
+	margin: 0 10%;
+	border: none;
+	font-size: 100%;
+	border-radius: 30px;
+	border-color: rgb(20, 20, 20);
+	border-style: solid;
+	border: solid 3px;
+}
+input::placeholder{
+	color: black;
+	text-align: center;
+	border-radius: 30px;
+}
+input{
+	background-color: #27b0cf;
+	border-radius: 30px;
+}
+
+#welcome{
+	text-align: center;
+	font-size: 10rem;
+
+	padding-top: 1%;
+	font-family: century gothic;
+	color: rgb(206, 203, 203);
+}
+
+fieldset {
+    border-width: 2px;
+    border-color: rgb(192, 192, 192);
+    border-radius: 50px;
+}
+
+
+#header{
+width:1100px;
+margin: 0 auto;
+height: 200px;
+left: 0 auto;
+}
+ul,ol{
+	list-style: none;
+
+}
+
+.nav > li {
+	float: left;
+/*padding-top: 100px;*/
+
+
+}
+.nav li a{
+	font-family: century gothic;
+	color: rgb(206, 203, 203);
+	background-color:#161616a6;
+	text-decoration: none;
+	padding: 10px 12px;
+	display: block;
+}
+.nav li a:hover{
+	background-color: #9e81ff;
+}
+.nav li ul{
+	display: none;
+	position: absolute;
+	min-width: 140px;
+}
+.nav li:hover > ul{
+	display: block;
+
+}
+.nav li ul li{
+	position: relative;
+}
+.nav li ul li ul {
+	right: -140px;
+	top: 0px;
+}
+
+
+
+a{
+	text-decoration: none;
+	color: #000000;
+	font-family: Times new Roman;
+	font-size: 12pt;
+	font-weight: bold;
+}
+a:hover{
+	background: #191970;
+	color: white;
+	text-decoration: underline;
+	box-shadow: -2px 2px 5px #000;
+	font-family: Tahoma;
+}
+
+.listado table{
+	width: auto;
+
+	border: 1px solid #000000;
+}
+.listado th {
+	font-size: 16px;
+	color: #141414;
+	background-color: #fffffffc;
+	border: 1px solid #000000;
+
+}
+.listado td {
+	background-color: #b1b3afcf;
+	font-size: 14px;
+	color: black;
+	border: 1px solid #000000;
+
+}
+
+.titulo_listado {
+	font-family: century gothic;
+	width: 300px;
+	height: 50px;
+	position: relative;
+	top: 15px;
+	left: 45%;
+
+}
+.titulo_nuevo {
+	position: relative;
+	top: 10px;
+	left: 80%;
+}
+.formu_ingreso_datos{
+	width: 350px;
+	font-size: 20px;
+	top: 20px;
+	left: 35%;
+	padding-left: 60px;
+	border: solid 7px;
+	border-radius: 50px;
+	contain: '';
+	background: linear-gradient(#1764e8,#8454d1, #d1546f);
+	box-shadow: 0px 0px 50rem;
+	animation: slidein;
+	position: relative;
+	font-size: 15px;
+}
+
+
+.slidein {
+  animation-duration: 3s;
+  animation-name: slidein;
+  animation-iteration-count: 3;
+  animation-direction: alternate;
+}
+
+@keyframes slidein {
+  from {
+    margin-left:100%;
+    width:300%
+  }
+
+  to {
+   margin-left:0%;
+   width:100%;
+ }
+}
+
+.boton2{
+	background-color: #0b1fd6;
+	color: white;
+	width: calc(40% - 20px);
+	margin: 0 5%;
+	border: none;
+	font-size: 100%;
+	border-radius: 30px;
+	border-color: black;
+	border-style: solid;
+	border: solid 3px;
+}
